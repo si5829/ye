@@ -222,7 +222,7 @@ do
 				Position = UDim2.new(0.25, 0, 0.052435593, 0),
 				Size = UDim2.new(0, 511, 0, 428),
 				Image = "rbxassetid://4641149554",
-				ImageColor3 = themes.Background,
+				ImageColor3 = Color3.fromRGB(20, 28, 38),
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(4, 4, 296, 296)
 			}, {
@@ -761,8 +761,7 @@ do
 			}, {
 				utility:Create("ImageLabel", {
 					Name = "Frame",
-					BackgroundTransparency = 0,
-					BackgroundColor3 = Color3.fromRGB(3,23,46),
+					BackgroundTransparency = 1,
 					Position = UDim2.new(0, 2, 0.5, -6),
 					Size = UDim2.new(1, -22, 1, -4),
 					ZIndex = 2,
