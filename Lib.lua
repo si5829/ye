@@ -14,11 +14,11 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
-	Background = Color3.fromRGB(8,8,13), 
+	Background = Color3.fromRGB(6, 9, 13), 
 	Glow = Color3.fromRGB(3, 168, 245), 
 	Accent = Color3.fromRGB(10, 10, 10), 
-	LightContrast = Color3.fromRGB(8, 8, 13), 
-	DarkContrast = Color3.fromRGB(8,8,13),  
+	LightContrast = Color3.fromRGB(6, 9, 13), 
+	DarkContrast = Color3.fromRGB(6, 9, 13),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }
 
@@ -761,7 +761,8 @@ do
 			}, {
 				utility:Create("ImageLabel", {
 					Name = "Frame",
-					BackgroundTransparency = 1,
+					BackgroundTransparency = 0,
+					ImageColor3 = Color3.fromRGB(3,23,46),
 					Position = UDim2.new(0, 2, 0.5, -6),
 					Size = UDim2.new(1, -22, 1, -4),
 					ZIndex = 2,
