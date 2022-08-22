@@ -271,7 +271,7 @@ do
 					Size = UDim2.new(1, 0, 0, 38),
 					ZIndex = 5,
 					Image = "rbxassetid://4595286933",
-					ImageColor3 = Color3.fromRGB(24, 35, 47),
+					ImageColor3 = Color3.fromRGB(26, 34, 44),
 					ScaleType = Enum.ScaleType.Slice,
 					SliceCenter = Rect.new(4, 4, 296, 296)
 				}, {
@@ -285,7 +285,7 @@ do
 						Font = Enum.Font.GothamBold,
 						Text = title,
 						TextColor3 = themes.TextColor,
-						TextSize = 22,
+						TextSize = 20,
 						TextXAlignment = Enum.TextXAlignment.Left
 					})
 				})
@@ -669,7 +669,7 @@ do
 			Size = UDim2.new(1, 0, 0, 30),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
-			ImageColor3 = themes.DarkContrast,
+			ImageColor3 = Color3.fromRGB(23, 31, 41),
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(2, 2, 298, 298)
 		}, {
