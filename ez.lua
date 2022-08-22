@@ -18,7 +18,7 @@ local themes = {
 	Glow = Color3.fromRGB(3, 168, 245), 
 	Accent = Color3.fromRGB(10, 10, 10), 
 	LightContrast = Color3.fromRGB(20, 28, 38), 
-	DarkContrast = Color3.fromRGB(20, 28, 38),  
+	DarkContrast = Color3.fromRGB(22, 30, 40),  
 	TextColor = Color3.fromRGB(255, 255, 245)
 }
 
@@ -755,7 +755,7 @@ do
 				Size = UDim2.new(0, 40, 0, 16),
 				ZIndex = 2,
 				Image = "rbxassetid://5028857472",
-				ImageColor3 = Color3.fromRGB(3, 23, 46),
+				ImageColor3 = themes.LightContrast,
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(2, 2, 298, 298)
 			}, {
