@@ -761,7 +761,8 @@ do
 			}, {
 				utility:Create("ImageLabel", {
 					Name = "Frame",
-					BackgroundTransparency = 1,
+					BackgroundTransparency = 0,
+					BackgroundColor3 = Color3.fromRGB(3, 23, 46),
 					Position = UDim2.new(0, 2, 0.5, -6),
 					Size = UDim2.new(1, -22, 1, -4),
 					ZIndex = 2,
