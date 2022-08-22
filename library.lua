@@ -762,8 +762,8 @@ do
 				utility:Create("ImageLabel", {
 					Name = "Frame",
 					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 2, 0.5, -6),
-					Size = UDim2.new(1, -48, 1, -12),
+					Position = UDim2.new(0, 2, 0.62, -6),
+					Size = UDim2.new(1, -55, 1, -12),
 					ZIndex = 2,
 					Image = "rbxassetid://5028857472",
 					ImageColor3 = Color3.fromRGB(3,168,245),
