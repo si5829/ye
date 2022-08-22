@@ -18,7 +18,7 @@ local themes = {
 	Glow = Color3.fromRGB(3, 168, 245), 
 	Accent = Color3.fromRGB(10, 10, 10), 
 	LightContrast = Color3.fromRGB(20, 28, 38), 
-	DarkContrast = Color3.fromRGB(25, 33, 43),  
+	DarkContrast = Color3.fromRGB(20,28,38),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }
 
@@ -729,7 +729,7 @@ do
 			Size = UDim2.new(1, 0, 0, 30),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
-			ImageColor3 = themes.DarkContrast,
+			ImageColor3 = Color3.fromRGB(3, 23, 46),
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(2, 2, 298, 298)
 		},{
@@ -761,8 +761,7 @@ do
 			}, {
 				utility:Create("ImageLabel", {
 					Name = "Frame",
-					BackgroundTransparency = 0,
-					BackgroundColor3 = Color3.fromRGB(3, 23, 46),
+					BackgroundTransparency = 1,
 					Position = UDim2.new(0, 2, 0.5, -6),
 					Size = UDim2.new(1, -22, 1, -4),
 					ZIndex = 2,
