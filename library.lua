@@ -14,11 +14,11 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
-	Background = Color3.fromRGB(21, 29, 39), 
+	Background = Color3.fromRGB(23, 31, 41), 
 	Glow = Color3.fromRGB(3, 168, 245), 
 	Accent = Color3.fromRGB(10, 10, 10), 
-	LightContrast = Color3.fromRGB(20, 28, 38), 
-	DarkContrast = Color3.fromRGB(20, 28, 38),  
+	LightContrast = Color3.fromRGB(23, 31, 41), 
+	DarkContrast = Color3.fromRGB(23, 31, 41),  
 	TextColor = Color3.fromRGB(255, 255, 245)
 }
 
@@ -222,7 +222,7 @@ do
 				Position = UDim2.new(0.25, 0, 0.052435593, 0),
 				Size = UDim2.new(0, 511, 0, 428),
 				Image = "rbxassetid://4641149554",
-				ImageColor3 = Color3.fromRGB(20, 28, 38),
+				ImageColor3 = Color3.fromRGB(23, 31, 41),
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(4, 4, 296, 296)
 			}, {
@@ -669,7 +669,7 @@ do
 			Size = UDim2.new(1, 0, 0, 30),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
-			ImageColor3 = Color3.fromRGB(23, 31, 41),
+			ImageColor3 = Color3.fromRGB(26, 34, 44),
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(2, 2, 298, 298)
 		}, {
@@ -755,7 +755,7 @@ do
 				Size = UDim2.new(0, 40, 0, 16),
 				ZIndex = 2,
 				Image = "rbxassetid://5028857472",
-				ImageColor3 = Color3.fromRGB(23, 31, 41),
+				ImageColor3 = Color3.fromRGB(26, 34, 44),
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(2, 2, 298, 298)
 			}, {
