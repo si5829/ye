@@ -246,6 +246,7 @@ do
 					ZIndex = 3,
 					Image = "rbxassetid://5012534273",
 					ImageColor3 = Color3.fromRGB(26, 34, 44),
+					ImageTransparency = 0.3,
 					ScaleType = Enum.ScaleType.Slice,
 					SliceCenter = Rect.new(4, 4, 296, 296)
 				}, {
@@ -272,6 +273,7 @@ do
 					ZIndex = 5,
 					Image = "rbxassetid://4595286933",
 					ImageColor3 = Color3.fromRGB(26, 34, 44),
+					ImageTransparency = 0.3,
 					ScaleType = Enum.ScaleType.Slice,
 					SliceCenter = Rect.new(4, 4, 296, 296)
 				}, {
