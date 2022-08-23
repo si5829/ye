@@ -246,6 +246,7 @@ do
 					ZIndex = 3,
 					Image = "rbxassetid://5012534273",
 					ImageColor3 = Color3.fromRGB(26, 34, 44),
+					ImageTransparency = 0.4,
 					ScaleType = Enum.ScaleType.Slice,
 					SliceCenter = Rect.new(4, 4, 296, 296)
 				}, {
@@ -272,6 +273,7 @@ do
 					ZIndex = 5,
 					Image = "rbxassetid://4595286933",
 					ImageColor3 = Color3.fromRGB(26, 34, 44),
+					ImageTransparency = 0.4,
 					ScaleType = Enum.ScaleType.Slice,
 					SliceCenter = Rect.new(4, 4, 296, 296)
 				}, {
@@ -286,7 +288,7 @@ do
 						Text = title,
 						TextColor3 = themes.TextColor,
 						TextSize = 20,
-						TextStrokeTransparency = 0.2,
+						TextStrokeTransparency = 0.7,
 						TextStrokeColor3 = Color3.fromRGB(3, 168, 245),
 						TextXAlignment = Enum.TextXAlignment.Left
 					})
