@@ -286,6 +286,8 @@ do
 						Text = title,
 						TextColor3 = themes.TextColor,
 						TextSize = 20,
+						TextStrokeTransparency = 0.2,
+						TextStrokeColor3 = Color3.fromRGB(3, 168, 245)
 						TextXAlignment = Enum.TextXAlignment.Left
 					})
 				})
