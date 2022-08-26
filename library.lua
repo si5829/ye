@@ -306,7 +306,7 @@ do
 		}, library)
 	end
 	
-	function menuSection.new(title)
+	function menuSection.new(libray, title)
 		local label = utility:Create("TextLabel", {
 			Name = "MenuSectionTitle",
 			Parent = library.pagesContainer,
