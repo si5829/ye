@@ -338,7 +338,7 @@ do
 				Name = "MenuSectionTitle",
 				Parent = library.pagesContainer,
 				BackgroundTransparency = 1,
-				Position = UDim2.new(0, 8, -0.205, 0),
+				Position = UDim2.new(0, 8, -0.230, 0),
 				Size = UDim2.new(0, 76, 1, 0),
 				ZIndex = 3,
 				Font = Enum.Font.Gotham,
