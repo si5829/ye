@@ -688,7 +688,7 @@ do
 			BackgroundTransparency = 1,
 			BorderSizePixel = 0,
 			Size = UDim2.new(0, 60, 0, 30),
-			Position = UDim2.new(0.169, 0, 0.364, 0),
+			Position = UDim2.new(0.5, 0, 0.475, 0),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
 			ImageColor3 = Color3.fromRGB(6, 117, 179),
