@@ -444,6 +444,8 @@ do
 	
 	function library:addMenuSection(...)
 		local section = menuSection.new(self, ...)
+		
+		return section
 	end
 	
 	function library:addPage(...)
