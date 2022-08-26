@@ -338,14 +338,14 @@ do
 				Name = "MenuSectionTitle",
 				Parent = library.pagesContainer,
 				BackgroundTransparency = 1,
-				Position = UDim2.new(0, 25, 0.3, 0),
+				Position = UDim2.new(0, 13, 0.1, 0),
 				Size = UDim2.new(0, 76, 1, 0),
 				ZIndex = 3,
 				Font = Enum.Font.Gotham,
 				Text = sectionTitle,
 				TextColor3 = Color3.fromRGB(51, 71, 84),
 				TextSize = 11,
-				TextTransparency = 0.65,
+				TextTransparency = 0.35,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
 			icon and utility:Create("ImageLabel", {
