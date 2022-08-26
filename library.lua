@@ -306,6 +306,23 @@ do
 		}, library)
 	end
 	
+	function menuSection.new(title)
+		local label = utility:Create("TextLabel", {
+			Name = "MenuSectionTitle",
+			Parent = library.pagesContainer,
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0, 25, 0.3, 0),
+			Size = UDim2.new(0, 76, 1, 0),
+			ZIndex = 3,
+			Font = Enum.Font.Gotham,
+			Text = title,
+			TextColor3 = Color3.fromRGB(51, 71, 84),
+			TextSize = 11,
+			TextTransparency = 0.65,
+			TextXAlignment = Enum.TextXAlignment.Left
+		})
+	end
+	
 	function page.new(library, title, icon)
 		local button = utility:Create("TextButton", {
 			Name = title,
@@ -373,6 +390,7 @@ do
 			sections = {}
 		}, page)
 	end
+	
 	
 	function section.new(page, title)
 		local container = utility:Create("ImageLabel", {
