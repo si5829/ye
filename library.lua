@@ -442,6 +442,10 @@ do
 		}, section) 
 	end
 	
+	function library:addMenuSection(...)
+		local section = menuSection.new(self, ...)
+	end
+	
 	function library:addPage(...)
 	
 		local page = page.new(self, ...)
