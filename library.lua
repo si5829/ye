@@ -337,7 +337,7 @@ do
 				utility:Create("TextLabel", {
 				Name = "MenuSectionTitle",
 				BackgroundTransparency = 1,
-				Position = UDim2.new(0, 8, -0.520, 0),
+				Position = UDim2.new(0, 8, -0.600, 0),
 				Size = UDim2.new(0, 76, 1, 0),
 				ZIndex = 4,
 				Font = Enum.Font.Gotham,
