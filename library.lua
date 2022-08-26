@@ -306,31 +306,8 @@ do
 		}, library)
 	end
 	
-	function menuSection.new(libray, title)
-		local label = utility:Create("TextLabel", {
-			Name = "MenuSectionTitle",
-			Parent = library.pagesContainer,
-			BackgroundTransparency = 1,
-			Position = UDim2.new(0, 25, 0.3, 0),
-			Size = UDim2.new(0, 76, 1, 0),
-			ZIndex = 3,
-			Font = Enum.Font.Gotham,
-			Text = title,
-			TextColor3 = Color3.fromRGB(51, 71, 84),
-			TextSize = 11,
-			TextTransparency = 0.65,
-			TextXAlignment = Enum.TextXAlignment.Left
-		})
-		
-		utility:InitializeKeybind()
-		utility:DraggingEnabled(container.Main.TopBar, container.Main)
-		
-		return setmetatable({
-				menuSections = {}
-		}, library)
-	end
 	
-	function page.new(library, title, icon)
+	function page.new(library, title, icon, sectionTitle)
 		local button = utility:Create("TextButton", {
 			Name = title,
 			Parent = library.pagesContainer,
@@ -354,6 +331,20 @@ do
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
+				TextTransparency = 0.65,
+				TextXAlignment = Enum.TextXAlignment.Left
+			}),
+				utility:Create("TextLabel", {
+				Name = "MenuSectionTitle",
+				Parent = library.pagesContainer,
+				BackgroundTransparency = 1,
+				Position = UDim2.new(0, 25, 0.3, 0),
+				Size = UDim2.new(0, 76, 1, 0),
+				ZIndex = 3,
+				Font = Enum.Font.Gotham,
+				Text = sectionTitle,
+				TextColor3 = Color3.fromRGB(51, 71, 84),
+				TextSize = 11,
 				TextTransparency = 0.65,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
@@ -449,13 +440,6 @@ do
 		}, section) 
 	end
 	
-	function library:addMenuSection(...)
-		local section = menuSection.new(self, ...)
-		
-		table.insert(self.menuSections, section)
-		
-		return section
-	end
 	
 	function library:addPage(...)
 	
