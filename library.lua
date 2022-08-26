@@ -425,8 +425,7 @@ do
 				}),
 				utility:Create("UIListLayout", {
 					SortOrder = Enum.SortOrder.LayoutOrder,
-					Padding = UDim.new(0, 4),
-					HorizontalAlignment = "Right"
+					Padding = UDim.new(0, 4)
 				})
 			})
 		})
@@ -682,13 +681,13 @@ do
 		end)
 	end
 	
-	function section:addButton(title, text, callback)
+	function section:addButton(title, callback)
 		local button = utility:Create("ImageButton", {
 			Name = "Button",
 			Parent = self.container,
 			BackgroundTransparency = 1,
 			BorderSizePixel = 0,
-			Size = UDim2.new(0, 60, 0, 30),
+			Size = UDim2.new(1, 0, 0, 30),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
 			ImageColor3 = Color3.fromRGB(6, 117, 179),
@@ -701,24 +700,11 @@ do
 				Size = UDim2.new(1, 0, 1, 0),
 				ZIndex = 3,
 				Font = Enum.Font.Gotham,
-				Text = text,
+				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
 				TextTransparency = 0.10000000149012
 			})
-		})
-		local label = utility:Create("TextLabel", {
-				Name = "Title",
-				Parent = self.container,
-				BackgroundTransparency = 1,
-				Size = UDim2.new(1, 0, 1, 0),
-				ZIndex = 3,
-				Font = Enum.Font.Gotham,
-				Text = title,
-				TextColor3 = themes.TextColor,
-				TextSize = 12,
-				TextTransparency = 0.10000000149012,
-				TextXAlignment = Enum.TextXAlignment.Left
 		})
 		
 		table.insert(self.modules, button)
