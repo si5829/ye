@@ -338,7 +338,7 @@ do
 				Name = "MenuSectionTitle",
 				Parent = library.pagesContainer,
 				BackgroundTransparency = 1,
-				Position = UDim2.new(0, 8, -0.310, 0),
+				Position = UDim2.new(0, 8, -0.400, 0),
 				Size = UDim2.new(0, 76, 1, 0),
 				ZIndex = 3,
 				Font = Enum.Font.Gotham,
@@ -425,7 +425,8 @@ do
 				}),
 				utility:Create("UIListLayout", {
 					SortOrder = Enum.SortOrder.LayoutOrder,
-					Padding = UDim.new(0, 4)
+					Padding = UDim.new(0, 4),
+					HorizontalAlignment = "Right"
 				})
 			})
 		})
@@ -688,7 +689,6 @@ do
 			BackgroundTransparency = 1,
 			BorderSizePixel = 0,
 			Size = UDim2.new(0, 60, 0, 30),
-			Position = UDim2.new(0.5, 0, 0.475, 0),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
 			ImageColor3 = Color3.fromRGB(6, 117, 179),
