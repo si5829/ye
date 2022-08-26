@@ -344,7 +344,7 @@ do
 				Font = Enum.Font.Gotham,
 				Text = sectionTitle,
 				TextColor3 = Color3.fromRGB(88, 123, 145),
-				TextSize = 11,
+				TextSize = 8,
 				TextTransparency = 0.35,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
