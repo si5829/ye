@@ -254,8 +254,8 @@ do
 						Name = "Pages_Container",
 						Active = true,
 						BackgroundTransparency = 1,
-						Position = UDim2.new(0, 0, 0, 10),
-						Size = UDim2.new(1, 0, 1, -20),
+						Position = UDim2.new(0, 0, 0, 30),
+						Size = UDim2.new(1, 0, 1, -40),
 						CanvasSize = UDim2.new(0, 0, 0, 314),
 						ScrollBarThickness = 0
 					}, {
