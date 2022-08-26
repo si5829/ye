@@ -705,6 +705,7 @@ do
 				TextSize = 12,
 				TextTransparency = 0.10000000149012
 			})
+		})
 		local label = utility:Create("TextLabel", {
 				Name = "Title",
 				BackgroundTransparency = 1,
@@ -716,7 +717,6 @@ do
 				TextSize = 12,
 				TextTransparency = 0.10000000149012,
 				TextXAlignment = Enum.TextXAlignment.Left
-			})
 		})
 		
 		table.insert(self.modules, button)
