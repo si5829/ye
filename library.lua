@@ -18,7 +18,7 @@ local themes = {
 	Glow = Color3.fromRGB(3, 168, 245), 
 	Accent = Color3.fromRGB(10, 10, 10), 
 	LightContrast = Color3.fromRGB(23, 31, 41), 
-	DarkContrast = Color3.fromRGB(23, 31, 41),  
+	DarkContrast = Color3.fromRGB(23, 31, 41), 
 	TextColor = Color3.fromRGB(255, 255, 245)
 }
 
@@ -338,7 +338,7 @@ do
 				Name = "MenuSectionTitle",
 				Parent = library.Pages,
 				BackgroundTransparency = 1,
-				Position = UDim2.new(0, 8, -0.450, 0),
+				Position = UDim2.new(0, 8, -0.520, 0),
 				Size = UDim2.new(0, 76, 1, 0),
 				ZIndex = 3,
 				Font = Enum.Font.Gotham,
