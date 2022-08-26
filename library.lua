@@ -321,6 +321,13 @@ do
 			TextTransparency = 0.65,
 			TextXAlignment = Enum.TextXAlignment.Left
 		})
+		
+		utility:InitializeKeybind()
+		utility:DraggingEnabled(container.Main.TopBar, container.Main)
+		
+		return setmetatable({
+				menuSections = {}
+		}, library)
 	end
 	
 	function page.new(library, title, icon)
@@ -444,6 +451,8 @@ do
 	
 	function library:addMenuSection(...)
 		local section = menuSection.new(self, ...)
+		
+		table.insert(self.menuSections, section)
 		
 		return section
 	end
