@@ -254,8 +254,8 @@ do
 						Name = "Pages_Container",
 						Active = true,
 						BackgroundTransparency = 1,
-						Position = UDim2.new(0, 0, 0, 43),
-						Size = UDim2.new(1, 0, 1, -65),
+						Position = UDim2.new(0, 0, 0, 28),
+						Size = UDim2.new(1, 0, 1, -60),
 						CanvasSize = UDim2.new(0, 0, 0, 314),
 						ScrollBarThickness = 0
 					}, {
@@ -336,7 +336,7 @@ do
 			}),
 				utility:Create("TextLabel", {
 				Name = "MenuSectionTitle",
-				Parent = library.pagesContainer,
+				Parent = library.Pages,
 				BackgroundTransparency = 1,
 				Position = UDim2.new(0, 8, -0.450, 0),
 				Size = UDim2.new(0, 76, 1, 0),
