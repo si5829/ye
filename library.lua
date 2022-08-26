@@ -254,8 +254,8 @@ do
 						Name = "Pages_Container",
 						Active = true,
 						BackgroundTransparency = 1,
-						Position = UDim2.new(0, 0, 0, 30),
-						Size = UDim2.new(1, 0, 1, -40),
+						Position = UDim2.new(0, 0, 0, 43),
+						Size = UDim2.new(1, 0, 1, -65),
 						CanvasSize = UDim2.new(0, 0, 0, 314),
 						ScrollBarThickness = 0
 					}, {
@@ -344,7 +344,7 @@ do
 				Font = Enum.Font.Gotham,
 				Text = sectionTitle,
 				TextColor3 = Color3.fromRGB(88, 123, 145),
-				TextSize = 8,
+				TextSize = 11,
 				TextTransparency = 0.35,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
