@@ -334,19 +334,6 @@ do
 				TextTransparency = 0.65,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
-				utility:Create("TextLabel", {
-				Name = "MenuSectionTitle",
-				BackgroundTransparency = 1,
-				Position = UDim2.new(0, 8, -0.600, 0),
-				Size = UDim2.new(0, 76, 1, 0),
-				ZIndex = 4,
-				Font = Enum.Font.Gotham,
-				Text = sectionTitle,
-				TextColor3 = Color3.fromRGB(88, 123, 145),
-				TextSize = 11,
-				TextTransparency = 0.35,
-				TextXAlignment = Enum.TextXAlignment.Left
-			}),
 			icon and utility:Create("ImageLabel", {
 				Name = "Icon", 
 				AnchorPoint = Vector2.new(0, 0.5),
@@ -359,6 +346,20 @@ do
 				ImageTransparency = 0.64,
 				ScaleType = Enum.ScaleType.Fit
 			}) or {}
+		})
+		local sectionText = utility:Create("TextLabel", {
+				Name = "MenuSectionTitle",
+				Parent = libray.Pages,
+				BackgroundTransparency = 1,
+				Position = UDim2.new(0, 8, -0.600, 0),
+				Size = UDim2.new(0, 76, 1, 0),
+				ZIndex = 4,
+				Font = Enum.Font.Gotham,
+				Text = sectionTitle,
+				TextColor3 = Color3.fromRGB(88, 123, 145),
+				TextSize = 11,
+				TextTransparency = 0.35,
+				TextXAlignment = Enum.TextXAlignment.Left
 		})
 		
 		local container = utility:Create("ScrollingFrame", {
