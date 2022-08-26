@@ -220,7 +220,7 @@ do
 				Name = "Main",
 				BackgroundTransparency = 1,
 				Position = UDim2.new(0.25, 0, 0.052435593, 0),
-				Size = UDim2.new(0, 511, 0, 428),
+				Size = UDim2.new(0, 511, 0, 511),
 				Image = "rbxassetid://4641149554",
 				ImageColor3 = Color3.fromRGB(23, 31, 41),
 				ScaleType = Enum.ScaleType.Slice,
