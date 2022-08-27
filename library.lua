@@ -349,11 +349,11 @@ do
 		})
 		local sectionText = utility:Create("TextLabel", {
 				Name = "MenuSectionTitle",
-				Parent = game.CoreGui.IMMORTAL.Main.Pages,
+				Parent = library.pagesContainer,
 				BackgroundTransparency = 1,
 				Position = UDim2.new(0, 8, -0.600, 0),
 				Size = UDim2.new(0, 76, 1, 0),
-				ZIndex = 4,
+				ZIndex = 5,
 				Font = Enum.Font.Gotham,
 				Text = sectionTitle,
 				TextColor3 = Color3.fromRGB(88, 123, 145),
