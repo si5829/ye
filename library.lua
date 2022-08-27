@@ -345,7 +345,6 @@ do
 				ScaleType = Enum.ScaleType.Fit
 			}) or {}
 		})
-		local sectionText = 
 		
 		local container = utility:Create("ScrollingFrame", {
 			Name = title,
