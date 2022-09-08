@@ -765,8 +765,8 @@ do
 				utility:Create("ImageLabel", {
 					Name = "Frame",
 					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 2, 0.62, -6),
-					Size = UDim2.new(1, -55, 1, -12),
+					Position = UDim2.new(1, 0, 0.62, -6),
+					Size = UDim2.new(1, -50, 1, -5),
 					ZIndex = 2,
 					Image = "rbxassetid://5028857472",
 					ImageColor3 = Color3.fromRGB(255,255,255),
@@ -1599,7 +1599,7 @@ do
 						Size = UDim2.new(0.8, 0, 1, 0),
 						ZIndex = 3,
 						Image = "rbxassetid://5028857472",
-						ImageColor3 = Color3.fromRGB(61,133,224),
+						ImageColor3 = Color3.fromRGB(255,255,255),
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(2, 2, 298, 298)
 					}, {
@@ -1608,7 +1608,7 @@ do
 							AnchorPoint = Vector2.new(0.5, 0.5),
 							BackgroundTransparency = 1,
 							ImageTransparency = 1.000,
-							ImageColor3 = Color3.fromRGB(61,133,224),
+							ImageColor3 = Color3.fromRGB(240,240,240),
 							Position = UDim2.new(1, 0, 0.5, 0),
 							Size = UDim2.new(0, 10, 0, 10),
 							ZIndex = 3,
