@@ -287,19 +287,20 @@ do
 						TextSize = 20,
 						TextStrokeTransparency = 1,
 						TextXAlignment = Enum.TextXAlignment.Left
-					})
+				}),
+				}),
 				utility:Create("ImageLabel", {
 					Name = "OtherBar",
 					BackgroundTransparency = 1,
 					ClipsDescendants = true,
 					Size = UDim2.new(0, 419, 0, 20),
-					Position = UDim2.new(0.21682243, 0, 0..00219292847, 0),
+					Position = UDim2.new(0.21682243, 0, 0.00219292847, 0),
 					ZIndex = 5,
 					Image = "rbxassetid://4595286933",
 					ImageColor3 = Color3.fromRGB(32,32,32),
 					ScaleType = Enum.ScaleType.Slice,
 					SliceCenter = Rect.new(4, 4, 296, 296)
-				}))
+				})
 			})
 		})
 		
