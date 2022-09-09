@@ -254,7 +254,7 @@ do
 					}, {
 						utility:Create("UIListLayout", {
 							SortOrder = Enum.SortOrder.LayoutOrder,
-							Padding = UDim2.new(0, 5)
+							Padding = UDim.new(0, 5)
 						})
 					})
 				}),
