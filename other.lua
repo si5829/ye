@@ -17,7 +17,7 @@ local themes = {
 	Glow = Color3.fromRGB(21,21,21), 
 	Accent = Color3.fromRGB(10, 10, 10), 
 	LightContrast = Color3.fromRGB(34,34,34), 
-	DarkContrast = Color3.fromRGB(34,34,34), 
+	DarkContrast = Color3.fromRGB(30,30,30), 
 	TextColor = Color3.fromRGB(255, 255, 245)
 }
 
@@ -288,12 +288,24 @@ do
 						TextStrokeTransparency = 1,
 						TextXAlignment = Enum.TextXAlignment.Left
 					})
-				})
+				utility:Create("ImageLabel", {
+					Name = "OtherBar",
+					BackgroundTransparency = 1,
+					ClipsDescendants = true,
+					Size = UDim2.new(0, 419, 0, 20),
+					Position = UDim2.new(0.21682243, 0, 0..00219292847, 0),
+					ZIndex = 5,
+					Image = "rbxassetid://4595286933",
+					ImageColor3 = Color3.fromRGB(32,32,32),
+					ScaleType = Enum.ScaleType.Slice,
+					SliceCenter = Rect.new(4, 4, 296, 296)
+				}))
 			})
 		})
 		
 		utility:InitializeKeybind()
 		utility:DraggingEnabled(container.Main.TopBar, container.Main)
+		utility:DraggingEnabled(container.Main.OtherBar, container.Main)
 		
 		return setmetatable({
 			container = container,
@@ -672,7 +684,7 @@ do
 			Size = UDim2.new(1, 0, 0, 30),
 			ZIndex = 2,
 			Image = "rbxassetid://5028857472",
-			ImageColor3 = Color3.fromRGB(6, 117, 179),
+			ImageColor3 = Color3.fromRGB(34,34,34),
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(2, 2, 298, 298)
 		}, {
@@ -766,7 +778,7 @@ do
 					Name = "Frame",
 					BackgroundTransparency = 1,
 					Position = UDim2.new(1, 0, 0.62, -6),
-					Size = UDim2.new(1, -50, 1, -5),
+					Size = UDim2.new(0, 10, 0, 10),
 					ZIndex = 2,
 					Image = "rbxassetid://5028857472",
 					ImageColor3 = Color3.fromRGB(255,255,255),
