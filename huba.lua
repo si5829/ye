@@ -322,7 +322,7 @@ do
 			}),
 			utility:Create("Frame", {
 				Name = "Line",
-				BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+				BackgroundColor3 = Color3.fromRGB(45, 45, 45),
 				BorderSizePixel = 0,
 				ZIndex = 3,
 				Position = UDim2.new(0, 3, 0, 3),
