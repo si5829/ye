@@ -271,15 +271,13 @@ do
 				}, {
 					utility:Create("TextLabel", { -- title
 						Name = "Title",
-						AnchorPoint = Vector2.new(0, 0.5),
 						BackgroundTransparency = 1,
 						Size = UDim2.new(1, 0, 0, 38),
 						ZIndex = 5,
 						Font = Enum.Font.Gotham,
 						Text = title,
 						TextColor3 = Color3.fromRGB(255,255,255),
-						TextSize = 18,
-						TextXAlignment = Enum.TextXAlignment.Left
+						TextSize = 18
 					})
 				})
 			})
@@ -761,8 +759,7 @@ do
 					ZIndex = 2,
 					Image = "rbxassetid://5228569533",
 					ImageColor3 = themes.Accent,
-					ScaleType = Enum.ScaleType.Slice,
-					SliceCenter = Rect.new(2, 2, 298, 298)
+					Visible = false
 				})
 			})
 		})
