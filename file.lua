@@ -300,7 +300,7 @@ do
 			BackgroundTransparency = 0,
 			BackgroundColor3 = Color3.fromRGB(30, 30, 30),
 			BorderSizePixel = 0,
-			Size = UDim2.new(1, 0, 0, 35),
+			Size = UDim2.new(0.95, 0, 0, 35),
 			ZIndex = 3,
 			AutoButtonColor = false,
 			Font = Enum.Font.Gotham,
@@ -319,6 +319,9 @@ do
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
 				TextXAlignment = Enum.TextXAlignment.Left
+			}),
+			utility:Create("UICorner", {
+				CornerRadius = UDim.new(0, 5)
 			}),
 			utility:Create("Frame", {
 				Name = "Line",
