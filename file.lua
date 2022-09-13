@@ -15,7 +15,7 @@ local objects = {}
 local themes = {
 	Background = Color3.fromRGB(25, 25, 25), 
 	Glow = Color3.fromRGB(0, 0, 0), 
-	Accent = Color3.fromRGB(0, 255, 0), 
+	Accent = Color3.fromRGB(4, 217, 255), 
 	LightContrast = Color3.fromRGB(33, 33, 33), 
 	DarkContrast = Color3.fromRGB(30, 30, 30),  
 	TextColor = Color3.fromRGB(255, 255, 255)
@@ -273,6 +273,7 @@ do
 						Name = "Title",
 						BackgroundTransparency = 1,
 						Size = UDim2.new(1, 0, 0, 38),
+						RichText = true,
 						ZIndex = 5,
 						Font = Enum.Font.Gotham,
 						Text = title,
