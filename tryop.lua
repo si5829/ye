@@ -427,7 +427,7 @@ do
 					Font = Enum.Font.Gotham,
 					Text = title,
 					TextColor3 = Color3.fromRGB(255,255,255),
-					TextSize = 12,
+					TextSize = 14,
 					TextTransparency = 1
 				}),
 				utility:Create("UIListLayout", {
@@ -447,7 +447,7 @@ do
 		}, section) 
 	end
 	
-	function library:addPage(...)
+	function library:Page(...)
 	
 		local page = page.new(self, ...)
 		local button = page.button
@@ -461,7 +461,7 @@ do
 		return page
 	end
 	
-	function page:addSection(...)
+	function page:Section(...)
 		local section = section.new(self, ...)
 		
 		table.insert(self.sections, section)
@@ -687,7 +687,7 @@ do
 		end)
 	end
 	
-	function section:addButton(title, callback)
+	function section:Button(title, callback)
 		local button = utility:Create("ImageButton", {
 			Name = "Button",
 			Parent = self.container,
@@ -747,7 +747,7 @@ do
 		return button
 	end
 	
-	function section:addToggle(title, default, callback)
+	function section:Toggle(title, default, callback)
 		local toggle = utility:Create("ImageButton", {
 			Name = "Toggle",
 			Parent = self.container,
@@ -820,7 +820,7 @@ do
 		return toggle
 	end
 	
-	function section:addTextbox(title, default, callback)
+	function section:Textbox(title, default, callback)
 		local textbox = utility:Create("ImageButton", {
 			Name = "Textbox",
 			Parent = self.container,
@@ -928,7 +928,7 @@ do
 		return textbox
 	end
 	
-	function section:addKeybind(title, default, callback, changedCallback)
+	function section:Keybind(title, default, callback, changedCallback)
 		local keybind = utility:Create("ImageButton", {
 			Name = "Keybind",
 			Parent = self.container,
@@ -1033,7 +1033,7 @@ do
 		return keybind
 	end
 	
-	function section:addColorPicker(title, default, callback)
+	function section:ColorPicker(title, default, callback)
 		local colorpicker = utility:Create("ImageButton", {
 			Name = "ColorPicker",
 			Parent = self.container,
@@ -1557,7 +1557,7 @@ do
 		return colorpicker
 	end
 	
-	function section:addSlider(title, default, min, max, callback)
+	function section:Slider(title, default, min, max, callback)
 		local slider = utility:Create("ImageButton", {
 			Name = "Slider",
 			Parent = self.container,
@@ -1708,7 +1708,7 @@ do
 		return slider
 	end
 	
-	function section:addDropdown(title, list, callback)
+	function section:Dropdown(title, list, callback)
 		local dropdown = utility:Create("Frame", {
 			Name = "Dropdown",
 			Parent = self.container,
