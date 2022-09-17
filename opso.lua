@@ -331,6 +331,7 @@ do
 			})
 		})
 		
+		utility:InitializeKeybind()
         utility:DraggingEnabled(container.Main.LogoBar, container.Main)
 		utility:DraggingEnabled(container.Main.TopBar, container.Main)
 		
