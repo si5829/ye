@@ -310,7 +310,7 @@ do
                     Name = "TopBar",
 					BackgroundTransparency = 1,
                     Position = UDim2.new(0, 125, 0, 0),
-					Size = UDim2.new(0, 306, 0, 30),
+					Size = UDim2.new(0, 306, 0, 20),
 					ZIndex = 5,
 					Image = "rbxassetid://4595286933",
 					ImageColor3 = Color3.fromRGB(9, 16, 27),
@@ -377,7 +377,7 @@ do
 			Active = true,
 			BackgroundTransparency = 1,
 			BorderSizePixel = 0,
-			Position = UDim2.new(0, 134, 0, 46),
+			Position = UDim2.new(0, 134, 0, 20),
 			Size = UDim2.new(1, -142, 1, -56),
 			CanvasSize = UDim2.new(0, 0, 0, 466),
 			ScrollBarThickness = 3,
@@ -730,10 +730,10 @@ do
 			
 			debounce = true
 			text.TextSize = 0
-			utility:Tween(button.Title, {TextSize = 14}, 0.2)
+			utility:Tween(button.Title, {TextSize = 17}, 0.2)
 			
 			wait(0.2)
-			utility:Tween(button.Title, {TextSize = 12}, 0.2)
+			utility:Tween(button.Title, {TextSize = 15}, 0.2)
 			
 			if callback then
 				callback(function(...)
