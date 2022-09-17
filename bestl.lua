@@ -292,8 +292,7 @@ do
                         BackgroundColor3 = Color3.fromRGB(255,255,255),
                         Position = UDim2.new(0, 10, 0, 35),
 						Size = UDim2.new(0, 100, 0, 1),
-						ZIndex = 5,
-						Font = Enum.Font.Gotham,
+						ZIndex = 5
 					}),
                     utility:Create("TextLabel", { -- subtitle
 						Name = "Subtitle",
